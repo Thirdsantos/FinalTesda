@@ -76,7 +76,7 @@ public class Appointment {
         try (Connection connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
              PreparedStatement statement = connection.prepareStatement(query)) {
 
-            statement.setString(1, users.getName()); // The name is already in lowercase
+            statement.setString(1, users.getName()); 
             statement.setString(2, users.getContactNumber());
             statement.setString(3, users.getDoctor());
             statement.setString(4, users.getDate());
