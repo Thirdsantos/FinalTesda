@@ -7,6 +7,7 @@ public class App {
         
         ConsoleDisplay consoleDisplay = new ConsoleDisplay();
         Menu menu = new Menu();
+        System.out.println("Hello World!");
 
 
         consoleDisplay.displayWelcome();
